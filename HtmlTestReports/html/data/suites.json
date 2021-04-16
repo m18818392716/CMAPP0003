@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TestCases",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "test_login_success[Honor_5C]",
+          "uid" : "7c4c4a7d0c4242c0",
+          "parentUid" : "156334d8d56ad3e60f17bab8a0cb7a59",
+          "status" : "passed",
+          "time" : {
+            "start" : 1618475763789,
+            "stop" : 1618475800799,
+            "duration" : 37010
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'Honor_5C'" ]
+        }, {
+          "name" : "test_login_success[YeShen]",
+          "uid" : "61d15cc315e9ee0a",
+          "parentUid" : "156334d8d56ad3e60f17bab8a0cb7a59",
+          "status" : "broken",
+          "time" : {
+            "start" : 1618475815199,
+            "stop" : 1618475835439,
+            "duration" : 20240
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'YeShen'" ]
+        } ],
+        "uid" : "156334d8d56ad3e60f17bab8a0cb7a59"
+      } ],
+      "uid" : "ee33cb4c057a9d7ca1eec0eaa23a4bee"
+    } ],
+    "uid" : "0408d924bc3d43de55080f45620fd22e"
+  } ]
+}

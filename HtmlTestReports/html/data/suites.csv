@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Thu Apr 15 16:36:55 CST 2021","Thu Apr 15 16:37:15 CST 2021","20240","TestCases","test_login","TestLogin","","","test_login_success[YeShen]",""
+"passed","Thu Apr 15 16:36:03 CST 2021","Thu Apr 15 16:36:40 CST 2021","37010","TestCases","test_login","TestLogin","","","test_login_success[Honor_5C]",""

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "children" : [ {
+        "name" : "test_login_success[YeShen]",
+        "uid" : "61d15cc315e9ee0a",
+        "parentUid" : "405bcfe17a01089383558c496f65deb9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618475815199,
+          "stop" : 1618475835439,
+          "duration" : 20240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'YeShen'" ]
+      } ],
+      "uid" : "405bcfe17a01089383558c496f65deb9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

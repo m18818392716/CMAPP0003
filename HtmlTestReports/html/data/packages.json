@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCases.test_login",
+    "children" : [ {
+      "name" : "test_login_success[Honor_5C]",
+      "uid" : "7c4c4a7d0c4242c0",
+      "parentUid" : "5b9bff3cc878bfbc7326d20d4563c3d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618475763789,
+        "stop" : 1618475800799,
+        "duration" : 37010
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Honor_5C'" ]
+    }, {
+      "name" : "test_login_success[YeShen]",
+      "uid" : "61d15cc315e9ee0a",
+      "parentUid" : "5b9bff3cc878bfbc7326d20d4563c3d2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1618475815199,
+        "stop" : 1618475835439,
+        "duration" : 20240
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'YeShen'" ]
+    } ],
+    "uid" : "TestCases.test_login"
+  } ]
+}

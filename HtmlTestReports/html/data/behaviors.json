@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "登录成功",
+      "children" : [ {
+        "name" : "test_login_success[Honor_5C]",
+        "uid" : "7c4c4a7d0c4242c0",
+        "parentUid" : "57a00934f1bd353362aa1d78642bc405",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618475763789,
+          "stop" : 1618475800799,
+          "duration" : 37010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Honor_5C'" ]
+      }, {
+        "name" : "test_login_success[YeShen]",
+        "uid" : "61d15cc315e9ee0a",
+        "parentUid" : "57a00934f1bd353362aa1d78642bc405",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618475815199,
+          "stop" : 1618475835439,
+          "duration" : 20240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'YeShen'" ]
+      } ],
+      "uid" : "57a00934f1bd353362aa1d78642bc405"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  } ]
+}

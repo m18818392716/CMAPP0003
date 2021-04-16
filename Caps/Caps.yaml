@@ -1,0 +1,29 @@
+-
+  deviceDesc: Honor_5C
+  server_url: 127.0.0.1
+  server_port: 4723
+  desired_caps:
+    platformName: Android
+    platformVersion: 7.1.2
+    deviceName: 127.0.0.1:62001
+    udid: 127.0.0.1:62001
+    appPackage: com.tnaot.newspro
+    appActivity: com.tnaot.news.mctnews.detail.activity.MainActivity
+    noReset: True
+    unicodeKeyboard: True
+    resetKeyboard: True
+
+-
+  deviceDesc: YeShen
+  server_url: 127.0.0.1
+  server_port: 4726
+  desired_caps:
+    platformName: Android
+    platformVersion: 7.1.2
+    deviceName: 127.0.0.1:62025
+    udid: 127.0.0.1:62025
+    appPackage: com.tnaot.newspro
+    appActivity: com.tnaot.news.mctnews.detail.activity.MainActivity
+    noReset: True
+    unicodeKeyboard: True
+    resetKeyboard: True

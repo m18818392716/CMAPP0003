@@ -1,0 +1,21 @@
+[ {
+  "uid" : "7c4c4a7d0c4242c0",
+  "name" : "test_login_success[Honor_5C]",
+  "time" : {
+    "start" : 1618475763789,
+    "stop" : 1618475800799,
+    "duration" : 37010
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61d15cc315e9ee0a",
+  "name" : "test_login_success[YeShen]",
+  "time" : {
+    "start" : 1618475815199,
+    "stop" : 1618475835439,
+    "duration" : 20240
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

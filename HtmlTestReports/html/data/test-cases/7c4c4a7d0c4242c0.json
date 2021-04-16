@@ -1,0 +1,153 @@
+{
+  "uid" : "7c4c4a7d0c4242c0",
+  "name" : "test_login_success[Honor_5C]",
+  "fullName" : "TestCases.test_login.TestLogin#test_login_success",
+  "historyId" : "2e7d3fa766fc9c3f430940caada97dce",
+  "time" : {
+    "start" : 1618475763789,
+    "stop" : 1618475800799,
+    "duration" : 37010
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_common_driver",
+    "time" : {
+      "start" : 1618475753303,
+      "stop" : 1618475763788,
+      "duration" : 10485
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "正常登录",
+      "time" : {
+        "start" : 1618475763789,
+        "stop" : 1618475800070,
+        "duration" : 36281
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取昵称",
+      "time" : {
+        "start" : 1618475800070,
+        "stop" : 1618475800799,
+        "duration" : 729
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "比对昵称",
+      "time" : {
+        "start" : 1618475800799,
+        "stop" : 1618475800799,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "login_common_driver::0",
+    "time" : {
+      "start" : 1618475800800,
+      "stop" : 1618475804319,
+      "duration" : 3519
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录成功"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('login_common_driver')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MI5M7JM"
+  }, {
+    "name" : "thread",
+    "value" : "12160-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "login_common_driver",
+    "value" : "'Honor_5C'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('login_common_driver')" ]
+  },
+  "source" : "7c4c4a7d0c4242c0.json",
+  "parameterValues" : [ "'Honor_5C'" ]
+}

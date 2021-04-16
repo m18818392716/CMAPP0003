@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-MI5M7JM",
+    "children" : [ {
+      "name" : "12160-MainThread",
+      "children" : [ {
+        "name" : "test_login_success[YeShen]",
+        "uid" : "61d15cc315e9ee0a",
+        "parentUid" : "81ebecdd09d53ab3a5e449b1acd12f81",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618475815199,
+          "stop" : 1618475835439,
+          "duration" : 20240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'YeShen'" ]
+      }, {
+        "name" : "test_login_success[Honor_5C]",
+        "uid" : "7c4c4a7d0c4242c0",
+        "parentUid" : "81ebecdd09d53ab3a5e449b1acd12f81",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618475763789,
+          "stop" : 1618475800799,
+          "duration" : 37010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Honor_5C'" ]
+      } ],
+      "uid" : "81ebecdd09d53ab3a5e449b1acd12f81"
+    } ],
+    "uid" : "e35805e4cc506714d9ca43c0e4a8d44f"
+  } ]
+}

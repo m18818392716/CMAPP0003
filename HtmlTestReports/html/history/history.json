@@ -1,0 +1,41 @@
+{
+  "153c9a18e21fbdf14c797fd32c2fbd75" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "61d15cc315e9ee0a",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "time" : {
+        "start" : 1618475815199,
+        "stop" : 1618475835439,
+        "duration" : 20240
+      }
+    } ]
+  },
+  "2e7d3fa766fc9c3f430940caada97dce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7c4c4a7d0c4242c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618475763789,
+        "stop" : 1618475800799,
+        "duration" : 37010
+      }
+    } ]
+  }
+}
